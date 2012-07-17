@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/49/trunk/org.eclipse.compare/src/org/eclipse/core/runtime
+END
+SubMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27/trunk/org.eclipse.compare/src/org/eclipse/core/runtime/SubMonitor.java
+END
+Assert.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27/trunk/org.eclipse.compare/src/org/eclipse/core/runtime/Assert.java
+END
+IProgressMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27/trunk/org.eclipse.compare/src/org/eclipse/core/runtime/IProgressMonitor.java
+END
+NullProgressMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27/trunk/org.eclipse.compare/src/org/eclipse/core/runtime/NullProgressMonitor.java
+END
+IProgressMonitorWithBlocking.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27/trunk/org.eclipse.compare/src/org/eclipse/core/runtime/IProgressMonitorWithBlocking.java
+END
+AssertionFailedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27/trunk/org.eclipse.compare/src/org/eclipse/core/runtime/AssertionFailedException.java
+END
+IStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27/trunk/org.eclipse.compare/src/org/eclipse/core/runtime/IStatus.java
+END
+ProgressMonitorWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27/trunk/org.eclipse.compare/src/org/eclipse/core/runtime/ProgressMonitorWrapper.java
+END
+OperationCanceledException.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27/trunk/org.eclipse.compare/src/org/eclipse/core/runtime/OperationCanceledException.java
+END

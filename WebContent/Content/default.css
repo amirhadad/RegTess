@@ -1,0 +1,1661 @@
+﻿/* reset all browsers */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td
+{
+    margin: 0;
+    padding: 0;
+}
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset, img
+{
+    border: 0;
+}
+address, caption, cite, code, dfn, em, strong, th, var
+{
+    font-style: normal;
+    font-weight: normal;
+}
+ol, ul
+{
+    list-style: none;
+}
+caption, th
+{
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 100%;
+    font-weight: normal;
+}
+q:before, q:after
+{
+    content: '';
+}
+abbr, acronym
+{
+    border: 0;
+}
+/* default font size change this and #searchterm*/
+html
+{
+    font-size: 75%; /* 62.5% 75% */
+}
+body, button, input
+{
+    font-size: 1em;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.5em;
+}
+body
+{
+    background: #ffffff;
+}
+/* headings take two grid lines, and table rows and tabs take 1 1/2 line. */
+h1, .h1, .networkContent .h1
+{
+    font-size: 2em;
+    line-height: 1.2em;
+    color: #0A78AF;
+    margin-bottom: 0.5em;
+}
+h2.h1
+{
+    font-size: 2em;
+    line-height: 1.2em;
+}
+h2
+{
+    font-size: 1.8em;
+    line-height: 1.2em;
+    color: #0A78AF;
+    margin-bottom: 1em;
+}
+h3, h4, h5
+{
+    font-size: 1.5em;
+    line-height: 1em;
+    color: #0A78AF;
+    margin-bottom: 0.5em;
+}
+
+strong
+{    
+    font-weight: bold;
+}
+
+ol
+{
+    list-style: decimal outside;
+}
+ol ul
+{
+    list-style: none inside;
+}
+p
+{
+    margin-bottom: 1em;
+}
+#container
+{
+    width: 960px;
+    margin: auto;
+    text-align: left;
+    border: solid 1px #999999;
+    border-top: none;
+    background-color: #ffffff;
+}
+#header
+{
+    text-align: center;
+    padding: 0em 5px 1em 5px;
+    position: relative;
+}
+#header #logo
+{
+    float: left;
+    padding-left: 32px;
+}
+#header .headerTitle a
+{
+    font-size: 3em;
+    color: #095380;
+    font-weight: bold;
+    line-height: 2em;
+    text-decoration: none;
+}
+#header #emergencyBanner
+{
+    float: right;
+    width: 25%;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.2em;
+    margin: 1em 0 0 0;
+}
+#siteNavigation
+{
+    background: #ffffff url(Images/header_nav_bg.png) repeat-y left top;
+    line-height: 2em;
+    padding-left: 6%;
+    _padding-left: 58px;
+    _line-height: 12px;
+}
+#siteNavigation a:visited, #siteNavigation a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+#siteNavigation a:hover, #siteNavigation a:focus
+{
+    text-decoration: underline;
+    border: none;
+}
+a:visited, a
+{
+    color: #0A6898;
+    text-decoration: underline;
+    cursor: pointer;
+}
+a.link:visited
+{
+    color: #581C90;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+#siteNavigation ul
+{
+    display: inline;
+    list-style: none;
+}
+#siteNavigation ul li
+{
+    float: left;
+    display: block;
+    width: auto;
+    padding: 0px;
+    text-align: center;
+    width: 144px;
+    _padding-top: 5px;
+}
+#wrapper
+{
+    font-size: 1em;
+}
+#footer
+{
+    border-top: solid 1px #999999;
+    padding: 10px;
+}
+#footer a
+{
+    text-decoration: none;
+}
+.clear
+{
+    clear: both;
+    height: 0px;
+}
+#homeHeader
+{
+    background: #ffffff url(shadow_top.png) repeat-x top;
+    padding: 0;
+}
+#homeHeader h2
+{
+    padding-top: 40px;
+}
+.blue
+{
+    color: #0A78AF;
+}
+h2.byline 
+{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.homeHeader img
+{
+    width: 480px;
+}
+#SearchTerm
+{
+    width: 240px;
+}
+.homeHeader #SearchTerm
+{
+    width: 270px;
+}
+.homeHeader #search
+{
+    width: auto;
+}
+.homeContent,.mapContent
+{
+    background: #F7F8F8 url(shadow_top.png) repeat-x top;
+}
+#hospitalContent, .nationalMaster .networkContent
+{
+    background: #F7F8F8;
+}
+.nationalMaster .networkContent
+{
+    border-top: solid 1px #999999;
+    background-color: #F7F8F8;
+}
+.nationalMaster ul
+{
+    margin-bottom: 2em;
+}
+.noHospitalHeader
+{
+    border-bottom: solid 1px #999999;
+}
+#stateList
+{
+    text-align: center;
+    display: block;
+}
+#stateList li a, .nowrap
+{
+    white-space: nowrap;
+}
+.mapAustralia
+{
+    text-align: center;
+    margin: auto;
+}
+#homeHeader #search
+{
+    float: left;
+}
+#search
+{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 360px;
+}
+.siteMaster #search
+{
+    float: right;
+}
+#search form
+{
+    padding: 10px 0px;
+}
+#search input, .searchBox
+{
+    border: 1px solid #0A6898;
+    height: 1.8em;
+    padding-left: 3px;
+    padding-right: 3px;
+    vertical-align: middle;
+}
+#search input.submit
+{
+    background-color: #0A6898;
+    color: #ffffff;
+    font-weight: bold;
+    height: 2em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#search label
+{
+    display: block;
+    margin-bottom: 0.2em;
+}
+#search input:focus, #search input:active, #search .submit:hover, #search .submit:focus
+{
+    border: 1px solid Orange;
+}
+#serviceSearch {display:block;width: 172px;margin-top:0.2em;}
+.verticalLine
+{
+    background: transparent url(images/vertical.gif) no-repeat center center;
+}
+.mapContent h1
+{padding: 20px 10px 0px;margin-bottom:0;}
+.mapTwoColumn 
+{
+    padding: 0 10px 10px;
+}
+.mapTwoColumn .columnOne
+{
+    width: 750px;
+    background: transparent;
+}
+.mapTwoColumn .columnTwo
+{
+    position: relative;
+    width: 180px;
+    background: transparent;
+}
+.serviceForm 
+{
+    position: absolute;
+    width:180px;right:16px;top:0px;
+}
+.mapTwoColumn h2
+{
+    padding-bottom: 15px;
+    text-align: center;
+    margin: 0px auto;
+}
+.legendImage .cluster
+{
+    height:32px;
+    width:32px !important;    
+}
+.legendImage .marker
+{
+    height:16px;
+    width:16px !important;
+    margin-left: 8px;    
+}
+.legendImage
+{
+    width:38px;
+    padding: 2px 0px;   
+}
+.legendDefinition
+{
+    padding: 2px 0px;
+}
+table.legend
+{
+    width: 185px;
+    border: none;
+    margin: 0px;
+    float: none;
+}
+div.legend 
+{
+    position: absolute;
+    bottom: 0px;
+    right: 16px;
+    width: 180px;
+}
+.twoColumn .firstColumnReducedMargin
+{
+    float: left;
+    width: 49%;
+    _width: 450px;
+    background: transparent;
+    _display: inline;
+}
+.twoColumn .secondColumn
+{
+    float: right;
+    width: 50%;
+    _width: 450px;
+    background: transparent;
+    _display: inline;
+}
+.twoColumn .firstColumnReducedMargin .section
+{
+    padding: 20px 20px 20px 20px;
+    _padding: 20px 0px 20px 20px;
+}
+.twoColumn .secondColumn .section
+{
+    padding: 20px 120px 20px 20px;
+    _padding: 20px 90px 20px 20px;
+}
+.content
+{
+    padding: 10px 58px;
+}
+.regionList
+{
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+#stateMap .regions {float:left;width:200px;}
+#stateMap .map
+{
+    text-align: center;
+    float:left;
+    margin: 0 auto;
+    width: 640px;
+    overflow: visible;
+}
+
+/*#stateMap.nsw .regions {width: 200px;}
+#stateMap.nsw .map{width:400px;}*/
+#stateMap.vic .regions {width: 160px;}
+/*#stateMap.vic .map{width:400px;}
+#stateMap.qld .regions {width: 200px;}
+#stateMap.qld .map{width:400px;}
+#stateMap.wa .regions {width: 200px;}*/
+#stateMap.wa .map{width:500px;}
+#stateMap.sa .regions {width: 160px;}
+/*#stateMap.sa .map{width:400px;}*/
+
+#map_canvas
+{
+    width:720px;
+    height:550px;
+    margin:0px auto;
+}
+
+#resetmap 
+{
+    text-align: center;
+    margin-top: 12px;
+}
+
+#mapsection 
+{
+    padding: 10px;
+}
+
+.section
+{
+    padding-top: 1em;
+}
+.state .section
+{
+    padding-top: 0;
+}
+table
+{
+    width: 845px;
+    border-collapse: collapse;
+    line-height: 1.5em;
+    border: solid 1px #CCCCCC;
+    margin: 0px auto 10px auto;
+    float: left;
+    clear: both;
+}
+table td, table th
+{
+    padding: 6px;
+}
+table tr.heading th
+{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 6px;
+    font-weight: bold;
+}
+table.twoColumn .c1, table.twoColumn tr.heading th.c1, table.threeColumn th.c1, table.threeColumn th.c2, table.twoColumn .word, table.service-years-compare th.c1,
+table.fourColumn .c1, table.fourColumn .c2, table.fourColumn .c3
+{
+    border-right: solid 1px #ffffff !important;
+}
+.location
+{
+    width: 240px;   
+}
+.sector
+{
+    width: 130px;   
+}
+table th a
+{
+    color: #ffffff;
+}
+table tr.heading th a:visited
+{
+    color: #ffffff;
+}
+.foot, .foot th
+{
+    font-weight: bold !important;
+}
+table#hospitalList tr.heading th.location
+{
+    width: 240px;
+}
+table#hospitalList tr.heading th
+{
+    text-align: right;
+}
+table#hospitalList tr.heading th span.left
+{
+    float: left;
+}
+.sortLink
+{
+    display: block;
+}
+a.sortLink, a:visited.sortLink, a:hover.sortLink
+{
+    text-decoration: none;
+}
+.odd, .oddg.odd
+{
+    background-color: #ffffff;
+}
+.oddg.even
+{
+    background-color: #ffffff;
+    border-top: solid 1px #F7F8F8;
+    border-bottom: solid 1px #F7F8F8;
+}
+.even, .eveng.odd
+{
+    background-color: #F7F8F8;
+}
+.eveng.even
+{
+    background-color: #F7F8F8;
+    border-top: solid 1px #ffffff;
+    border-bottom: solid 1px #ffffff;
+}
+#hospitalHeader, #contentHeader
+{
+    padding: 10px 0 1em 58px;
+    background: #ffffff url(shadow_top.png) repeat-x top;
+}
+#contentHeader
+{
+    padding-bottom: 0;
+}
+#hospitalHeader .secondColumn, #contentHeader .secondColumn
+{
+    margin-left: 10px;
+}
+#hospitalHeader h2
+{
+    margin-bottom: 0px;
+}
+#hospitalHeader .firstColumn, #contentHeader .firstColumn
+{
+    float: left;
+    width: 58%;
+}
+#wrapper .secondColumn
+{
+    text-align: left;
+    float: right;
+    background: transparent;
+}
+#wrapper .secondColumn img
+{
+    display: block;
+    margin: 0;
+}
+.hospitalMaster h3, .nationalMaster h3, .hospitalMaster, #hospitalContent h2, .ans h3, .glossary h2, .terms h2, .legal h2, .comparison h3, .networkContent h2
+{
+    color: #000000;
+    margin-bottom: 1em;
+}
+#hospitalHeader h3
+{
+    margin-bottom: 0em;
+}
+.publicPrivate
+{
+    font-size: 1em;
+    margin-bottom: 5px;
+    color:#000;
+    font-weight: bold;
+}
+#hospitalAddress
+{
+    min-height: 121px;   
+}
+#networkCampuses
+{
+    min-height: 121px;  
+}
+#hospitalContent h2, .glossary h2, .terms h2, .legal h2, .networkContent h2
+{
+    font-size: 1.5em;
+    line-height: 1em;
+}
+#hospitalContent .table h2
+{
+    font-size: 1em;
+    color: #000000;
+    display: inline;
+    font-weight: bold;
+}
+#hospitalNavigation
+{
+    float: left;
+    width: 100%;
+    background: #ffffff url(images/tab_bg.gif) repeat-x bottom;
+    line-height: 2em;
+}
+#hospitalNavigation ul
+{
+    margin: 0;
+    padding: 0px 10px 0 58px;
+    list-style: none;
+}
+#hospitalNavigation li
+{
+    float: left;
+    background: url(images/tab_left.gif) no-repeat left top;
+    margin: 0;
+    padding: 0 0 0 9px;
+}
+#hospitalNavigation a
+{
+    display: block;
+    background: url(images/tab_right.gif) no-repeat right top;
+    padding: 5px 25px 4px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0A6898;
+}
+#hospitalNavigation a:hover, #hospitalNavigation a:focus
+{
+    text-decoration: underline;
+    border:none;
+}
+#hospitalNavigation li.selected
+{
+    background-image: url(images/tab_left_on.gif);
+}
+#hospitalNavigation li.selected a
+{
+    background-image: url(images/tab_right_on.gif);
+    color: #333;
+    padding-bottom: 5px;
+}
+#hospitalContent
+{
+    clear: both;
+}
+td.indent, th.indent
+{
+    padding-left: 48px;
+}
+.tick
+{
+    vertical-align: -1px;
+    margin-right: 5px;
+    
+}
+
+th.service, td.service
+{
+    width: 60%;
+    color: #000000;    
+    font-size: 1em;
+    font-weight: bold;
+}
+
+th.cancerService, td.cancerService
+{
+    width: 60%;
+    color: #000000;    
+    font-size: 1em;
+    font-weight: bold;
+}
+
+td p
+{
+    margin: 0;
+}
+td.moreInfo
+{
+    width: 15.5em;
+    text-align: right;
+    border-left: solid 1px #ffffff;
+}
+td.moreInfo a {white-space: nowrap;}
+th.moreInfo
+{
+    width: 15.5em;
+}
+#safetyAndQualityList td.moreInfo 
+{ 
+      width: 470px;
+}
+td.tickCross
+{
+    text-align: center;
+    width: 95px;
+    border-left: solid 1px #ffffff;
+}
+th.tickCross
+{
+    width: 95px;
+}
+p.address
+{
+    margin-bottom: 1em;
+}
+.Services .section, .decorate, .Cancer .section, .decorate
+{
+    background: transparent url(images/horizontal.gif) no-repeat center top;
+}
+.Services .section.outpatient
+{
+    background: none;
+}
+table.barChart
+{
+    margin: 0 auto 2em auto;
+}
+.tableFootNote
+{
+    margin-top: -1.5em;
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-bottom: 0;
+}
+.Admissions .tableFootNote
+{
+    margin-bottom: 18px;
+}
+.expandSection .tableFootNote
+{
+    margin-bottom: 18px;
+}
+table.barChart tr.heading th
+{
+    color: #000000;
+    background-color: #cccccc;
+    border: none;
+}
+table.barChart tr.heading th.number
+{
+    text-align: left;
+}
+table tr.heading th.bar, table.barChart td.bar
+{
+    width:422px;
+}
+.comparison table.barChart.multibar th, .comparison table.barChart.multibar td
+{
+    padding-top:1px;
+    padding-bottom: 1px;
+}
+.comparison table.barChart tr.lastInGroup th, .comparison table.barChart tr.lastInGroup td
+{
+    padding-bottom:6px;
+}
+.comparison table.barChart tr.firstInGroup th, .comparison table.barChart tr.firstInGroup td
+{
+    padding-top:6px;
+}
+table.barChart .number
+{
+    text-align: right;
+    vertical-align: middle;
+}
+table td .graph
+{
+    border: medium none;
+    padding: 0px;
+    position: relative;
+    margin: 0;
+    width: 66%;
+    float: left;
+}
+.graph .bar
+{
+    border: 1px solid #006AB7;
+    background: none repeat scroll 0 0 #006DB8;
+    display: block;
+    position: relative;
+    text-align: left;
+    float: left;
+    height: 1.5em;
+}
+
+.y0809 .graph .bar
+{
+    border-color: #858585;
+}
+
+.y0910 .graph .bar
+{
+    border-color: #858585;
+}
+
+.y1011 .graph .bar
+{
+    border-color: #006AB7;
+}
+
+/* no data yet for most recent year, so previous year is shown as latest */
+.y0809 .graph .bar.old
+{
+    border-color: #858585;
+}
+
+.y0910 .graph .bar.old
+{
+    border-color: #006AB7;
+}
+
+.Admissions #hospitalContent .tableHeader
+{
+    width: 845px;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #0A78AF;
+    margin: 0 0;
+    padding: 0;
+}
+div.table .columnOne
+{
+    width: 20%;
+    font-weight: bold;
+    float: left;
+}
+div.table .columnTwo
+{
+    float: left;
+    width: 80%;
+}
+h2.columnOne
+{
+    font-size: 1em;
+    color: #000000;
+    clear: both;
+    margin-bottom: 0px;
+}
+div.clear
+{
+    clear: both;
+}
+div.table .columnTwo ul
+{
+    list-style: disc inside;
+    margin-bottom: 0;
+}
+.networkProfile
+{
+    margin-bottom: 2em;
+}
+#breadcrumb
+{
+    display: block;
+    margin: 1em 0 2em;
+}
+.gaugeSection
+{
+    border: solid 1px #cccccc;
+    padding: 0 1em 8px;    
+    margin-bottom: 2em;
+    background-color: #ffffff;
+}
+.gaugeSection .firstColumn
+{
+    width: 620px;
+    float: left;
+    padding: 18px 0;
+}
+.gaugeSection .secondColumn
+{
+    width: 195px;
+    float: left;
+}
+#wrapper .gaugeSection .firstColumn.secondColumn
+{
+    float: none;
+    padding: 18px 0;
+    width: inherit;
+    height: auto;
+}
+#wrapper .gaugeSection .secondColumn
+{
+    text-align: left;
+    height: 80px;
+}
+#wrapper .gaugeSection .secondColumn img
+{
+    display: inline;
+    vertical-align: bottom;
+}
+.hospitalMaster .gaugeSection h4
+{
+    color: #000000;
+    padding: 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+ul#networkHospitalList
+{
+    list-style: disc inside;
+}
+.context
+{
+    position: absolute;
+    left: -999em;
+    width: 1em;
+    overflow: hidden;
+}
+em, .italic
+{
+    font-style: italic;
+}
+ul.contactUs
+{
+    list-style: disc outside;
+    margin-bottom: 2em;
+}
+.cal000
+{
+    display: block;
+    font-weight: bold;
+    font-size: 120%;
+}
+.terms ul
+{
+    list-style: disc outside;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+.terms ol
+{
+    list-style: decimal outside;
+    margin-bottom: 2em;
+}
+.terms ul li, .terms ol li
+{
+    margin-bottom: 1em;
+    margin-left: 4em;
+}
+
+.terms ul ul li, .terms ul ol li, .terms ol ul li, .terms ol ol li  
+{
+    margin-bottom: 0;
+    margin-left:0;
+}
+.terms .last
+{
+    margin-bottom: 2em;
+}
+.help ul
+{
+    list-style: disc outside;
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+}
+.help ol
+{
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+}
+.legal li
+{
+    margin-bottom: 0;
+}
+.legal ul
+{
+    list-style: disc;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-top:1em;
+}
+.legal p.address
+{
+    margin: 1em 0;
+}
+.glossary table tr th.word
+{
+    width: 33%;
+}
+.glossary strong{color:#000000;}
+.glossary table ul
+{
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 25px;
+}
+p.ul, p.ol
+{
+    margin-bottom: 1em;
+}
+.resultsFooter
+{
+    text-align: center;
+    padding: 1em;
+}
+.noData
+{
+    text-align: center;
+}
+.noData p
+{
+    background-color: #0A78AF;
+    color: #FFFFFF;
+    display: block;
+    float: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px 20px;
+    margin: 1em;
+}
+.pagination
+{
+    text-align: center;
+}
+.pagination .previous
+{
+    float: left;
+    text-align: left;
+}
+.pagination .next
+{
+    float: right;
+    text-align: right;
+}
+.opaque
+{
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+}
+a:focus, input:focus, button:focus
+{
+    border: 1px solid orange;
+}
+#skipLinks
+{
+    color: #ffffff;
+    white-space:nowrap;
+    text-indent: -9999px;
+}
+#skipLinks a
+{
+    outline:none;
+    color: #ffffff;
+}
+#skipLinks a:focus, #skipLinks a:active
+{
+    color: #0A6898;
+}
+.secureDiv
+{
+    position: relative;
+}
+#homeHeader .secureDiv
+{
+    float: left;
+    margin-right: 20px;
+}
+.secureImage
+{
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+.hide
+{
+    display: none;
+}
+.underline
+{
+    text-decoration: underline;   
+}
+.noPadding
+{
+    padding: 0;
+}
+ul.el
+{
+    list-style: disc outside;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+#siteNavigation li#home
+{
+    padding: 0;
+    width: 206px;
+    text-align: left;
+    _padding-top: 5px;
+}
+#siteNavigation li#glossary
+{
+    padding-left: 155px;
+    text-align: left;
+    width: 100px;
+}
+/* jquery.autocomplete */
+.ac_results
+{
+    padding: 0px;
+    border: 1px solid black;
+    background-color: white;
+    overflow: hidden;
+    z-index: 99999;
+}
+.ac_results ul
+{
+    width: 100%;
+    list-style-position: outside;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.ac_results li
+{
+    margin: 0px;
+    padding: 5px 5px;
+    cursor: default;
+    display: block; /*  	if width will be 100% horizontal scrollbar will apear  	when scroll mode will be used 	*/ /*width: 100%;*/ /*  	it is very important, if line-height not setted or setted  	in relative units scroll will be broken in firefox 	*/
+    text-align: left;
+    overflow: hidden;
+}
+.ac_loading
+{
+    background: white url('indicator.gif') right center no-repeat;
+}
+.ac_odd
+{
+    background-color: #eee;
+}
+.ac_over
+{
+    background-color: #0A246A;
+    color: white;
+}
+.Profile .table
+{
+    margin-bottom: 1em;
+}
+.columnTwo p
+{
+    margin-bottom: 1em;
+}
+.beds
+{
+    margin-bottom: 1em;
+}
+.beds li
+{
+    float: left;
+    display: block;
+    text-align: center;
+    width: 120px;
+}
+.beds .bedsFirst
+{
+    padding: 0;
+    padding-left: 20px;
+    width: 130px;
+    text-align: left;
+}
+.beds .bedsLast
+{
+    text-align: right;
+    width: 140px;
+    float: right;
+    padding-right: 20px;
+}
+.beds h3
+{
+    text-align: center;
+    background-color:#000;
+    color:#FFF;
+    line-height:1.5em;
+    margin:0;
+    padding:2px;
+    font-size:1em;
+}
+.numBeds
+{
+    border: 1px solid #CCCCCC;
+    border-top: 0 none;
+}
+#cboxcv
+{
+    text-align: center;
+    display: inline;
+    list-style: none outside none;
+}
+input.imageCheck
+{
+    display: none;
+}
+.checkBox
+{
+    vertical-align:bottom;
+    margin-right:2px;
+}
+#aboutTheData h2
+{
+    font-size: 1.5em;
+}
+.qa-toggle
+{
+    font-size: 1.5em;
+    line-height: 1.2em;
+    color: #0A78AF;
+}
+#aboutTheData h4, .terms h3, .h4
+{
+    font-size: 1em;
+    font-weight: bold;
+    color: #000000;
+}
+.state #content
+{
+    margin-top: 30px;
+}
+.state .h4
+{
+    margin-bottom: 5px;
+}
+.comparison
+{
+    margin: 8px 0;
+}
+.ans
+{
+    margin-top: 1em;
+}
+table.aboutDial
+{
+    margin-bottom: 2em;
+    border: none;
+}
+.aboutTheDataQList li
+{
+    margin-bottom: 1em;
+}
+.aboutTheDataQList ol li,
+.aboutTheDataQList ul li
+{
+    margin-bottom: 0px;
+}
+.aboutDial .gauge
+{
+    width:180px;
+}
+ul.accreditationList
+{
+    list-style: disc outside !important;
+    margin-left: 17px;
+}
+span.print-only
+{
+    display: none;
+}
+#contactList
+{
+    background: none repeat scroll 0 0 #F7F8F8;
+    padding: 10px;
+}
+#contactList ol
+{
+    list-style: none outside none;
+     margin: 0;
+}
+#contactList h2
+{
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+    color: #000;
+}
+.contact
+{
+    height: auto !important;
+    margin-right: 7px;
+    min-height: 126px;
+    position: relative;
+    float: left;
+    padding: 7px;
+    background: none repeat scroll 0 0 #FFF;
+}
+.contact.first
+{
+    width: 244px;
+}
+.contact.middle
+{
+    width: 278px;
+}
+.contact.last
+{
+    margin-right: 1px;
+    float: right;
+    width: 244px;
+}
+.contact p
+{
+  margin-bottom: 0;   
+}
+.searchResultHeader h1
+{
+    margin-bottom: 3px;
+}
+.searchResultHeader h3
+{
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+}
+.introduction p
+{
+    margin-bottom: 1em;
+}
+.introduction
+{
+    margin-bottom: 2em;
+}
+
+ul.bullet
+{
+    list-style: disc outside;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+ul.sub-bullet
+{
+    list-style: circle outside;
+    margin-left: 2em;
+}
+
+.comparison table
+{
+    margin-bottom: 0px;
+    border: solid 1px #ccc;
+    float: none;
+}
+
+.comparison .tableContainer table
+{
+    border: none;
+}
+
+.comparison .tableContainer,
+.comparison .tableContainerOld
+{
+    border: solid 1px #ccc;
+    width: 845px;
+}
+
+.comparison .tableContainerOld .odd,
+.comparison .tableContainerOld .oddg.odd,
+.comparison .tableContainerOld .eveng.odd
+{
+    background-color: #ffffff;
+}
+
+.comparison .tableContainerOld .even, 
+.comparison .tableContainerOld .oodg.even, 
+.comparison .tableContainerOld .eveng.even
+{
+    background-color: #F7F8F8;
+}
+table.barChart.threeColumn
+{
+    table-layout: auto;
+}
+table.service-years-compare
+{
+    width: 100%;
+    line-height: 1em;
+}
+table.service-years-compare td
+{
+    padding: 6px;
+    line-height: 1.2em;
+}
+table.service-years-compare tr.heading th.endCol
+{
+    border-right:0;
+}
+table.service-years-compare .smallGauge
+{
+    text-align: center;
+    padding: 0 6px;
+}
+.year-toggle
+{
+    display:block;
+}
+.year-toggle.gauge
+{
+    float: left;
+    margin-top: -24px;
+}
+.stateFooter
+{
+    padding: 1em 0;
+    margin-top: 0.5em;
+}
+
+.stateFooter .warning 
+{    border: solid 1px #85C8E7; 
+    background: #CDE5F0;
+    padding: 5px;
+}
+
+.relative
+{
+    position:relative;    
+}
+
+p.disclaimer 
+{    border: solid 1px #85C8E7; 
+    background: #CDE5F0;
+    padding: 5px;
+
+}
+
+.addthis_toolbox
+{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    text-align: right;
+    }
+
+/*.addthis_toolbox .addthis_noicon span{display: none;}*/
+
+#contactUs #contactList2 .contact
+{
+    height: auto !important;
+    margin-right: auto;    
+    position: relative;
+    float: none;
+    padding: 0px;
+    background: none repeat scroll 0 0 #FFF;
+}
+
+#contactUs #contactList2 .contact h2 
+{margin-top: 1em;}
+#contactList2 ol
+{
+    list-style: none outside none;
+    margin: 0;
+}
+#contactUs #contactList2 .contact.first
+{
+    width: auto;
+}
+#contactUs #contactList2 .contact.middle
+{
+    width: auto;
+}
+#contactList2 ol .contact.last
+{
+    width: auto;
+    float: none;
+}
+#contactUs 
+{
+    /*width: 500px;
+    float: left;*/
+}
+
+#twitterFeed 
+{
+    margin:12px 0;text-align:center;
+   /* float: right;*/
+}
+
+#twitterFeed .inner
+{
+    /*width: 300px;*/
+    margin: auto;
+    text-align: left;
+}
+
+ul.hospitalList 
+{
+    float:left;
+    width: 50%;
+    margin-bottom: 2em;
+}
+
+li.marginTop 
+{
+    margin-top: 1em;
+}
+
+.left {float:left;}
+.right {float:right;}
+.relative {position: relative;}
+.abs {position: absolute;}
+.center {text-align: center;}
+
+/* Cancer waiting times. */
+div.cancerWaitingTimes div.gaugeSection
+{
+    padding:1em 0 1em 0;
+}
+        
+div.cancerWaitingTimes div.gaugeSection div.firstColumn
+{
+    padding:0;
+    width: auto;
+    float:none;
+    margin-left: 1em;
+}
+        
+div.cancerWaitingTimes div.gaugeSection div.firstColumn h4
+{
+    line-height:1.5em;
+    margin-bottom: 0;
+}
+        
+#wrapper div.cancerWaitingTimes div.gaugeSection div.secondColumn
+{    
+    width: auto; /* this lines the text up on the right - to align the rows on the left - make width 300px; */
+    height:auto;
+    float:none;
+    margin-left: 1em;
+    
+    /*_float:right;*/
+    _padding-top:0px;
+    _padding-bottom:0px;
+    _margin-bottom:0px;
+}
+
+@media print
+{
+    td
+    { 
+        page-break-inside: avoid;
+        vertical-align:top; 
+    }
+    table.aboutDial td 
+    {
+        vertical-align:middle !important;
+    }
+    #wrapper 
+    {
+        position:static;    
+    }
+    span.print-only
+    {
+        display: inline;
+    }
+    html
+    {
+        font-size: 12pt;
+    }
+    body, button, input
+    {
+        font-family: Times New Roman, serif;
+        color: #000;
+    }
+    #container, .gaugeSection
+    {
+        border: none;
+    }
+    #siteNavigation, #search, #hospitalNavigation, .sortField, #skipLinks, .secureDiv
+    {
+        display: none;
+    }
+    .homeContent,.mapContent
+    {
+        background: #ffffff url(shadow_top.png) repeat-x top;
+    }
+    #hospitalContent, .nationalMaster .networkContent, #search input.submit, .even, table.barChart tr.heading th, table tr.heading th, .ac_odd, .ac_over
+    {
+        background: #ffffff;
+    }
+    table.barChart tr.heading th, table tr.heading th, .ac_over
+    {
+        color: black;
+    }
+    .twoColumn .firstColumnReducedMargin .section
+    {
+        padding: 20px 0px 20px 0px;
+    }
+    .content
+    {
+        padding: 1em 0;
+    }
+    table
+    {
+        clear: left;
+        float: none;
+        width: 100%;
+    }
+    table.twoColumn .c1, table.twoColumn tr.heading th.c1, table.twoColumn .word, td.tickCross, td, tr, tr.heading th, table.barChart tr.heading th, .graph .bar
+    {
+        border: 1px solid #cccccc;
+    }
+    #hospitalHeader, #contentHeader
+    {
+        padding: 1em 0 1em 0;
+    }
+    #hospitalContent
+    {
+        padding: 0;
+    }
+    .graph .bar
+    {
+        background: none repeat scroll 0 0 #cccccc;
+    }
+    .Admissions #hospitalContent .tableHeader
+    {
+        width: auto;
+    }
+    #contentHeader, #breadcrumb
+    {
+        margin:0pt 0pt;
+        padding: 0px;
+    }
+    #share * 
+    {
+        display: none;
+    }
+    
+    #twitterFeed 
+    {
+        display: none;
+    }
+}
+
